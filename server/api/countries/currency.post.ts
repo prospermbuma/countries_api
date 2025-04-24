@@ -1,15 +1,26 @@
 /* ========================================================
 # Method: Post
-# Endpoint: api/countries/label
-# Body: {country: string}
+# Endpoint: api/countries/currency
+# Body: {currency: string}
 =========================================================*/
 
-import { countryList } from "@doubco/countries";
+import { countries } from "@doubco/countries";
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
-  const { country } = body;
+  const { currency } = body;
+  if (!currency) {
+    return {
+      status: 400,
+      message: "No currency provided in body",
+    };
+  }
+  const countriesArr = Object.values(countries);
   return {
-    countries: countryList.filter((Object) => Object.label.includes(country)),
+    countries: countriesArr.filter((Object) => {
+      if (Object.currency) {
+        return Object.currency.includes(currency);
+      }
+    }),
   };
 });
