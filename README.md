@@ -1,57 +1,26 @@
-# Docus Starter
+# Countries API
 
-Starter template for [Docus](https://docus.dev).
+API to fetch any country in the world with its name, its id code and more information.
 
-## Clone
+## How to use it ?
 
-Clone the repository (using `nuxi`):
+Please refer to our documentation[Countries](https://countries.vercel.app) and check every route.
 
-```bash
-npx nuxi init -t themes/docus
-```
+::list{type="success"}
+- Query all countries
+- By random number
+- By label
+- By capital
+- By currency
+- By code
+::
 
-## Setup
+## Rules
 
-Install dependencies:
+::alert{type="warning"}
+This API is free to use. However, please do not spam or use it more than 100 times per day.
+::
 
-```bash
-yarn install
-```
-
-## Development
-
-```bash
-yarn dev
-```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
-
-For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+::alert{type="danger"}
+We will banish your IP for 30 days if you spam it.
+::
