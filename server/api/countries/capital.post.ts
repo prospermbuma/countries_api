@@ -13,13 +13,12 @@
 //   const body = await readBody(event);
 //   const { capital } = body;
 //   return {
-    
+
 //   };
 // });
 
 // import countries from "@doubco/countries";
 // console.log(countries);
-
 
 // export default defineEventHandler(async (event) => {
 //   const body = await readBody(event);
@@ -42,15 +41,8 @@ import countries from "@doubco/countries";
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
   const { capital } = body;
-
-  // Assuming countries.data is the actual object with country details
-  const country = Object.values(countries.data).find(
-    (c) => c.capital.toLowerCase() === capital.toLowerCase()
-  );
-
+  const countriesArr = Object.values(countries);
   return {
-    success: !!country,
-    data: country || null,
-    message: country ? "Country found" : "Country not found"
+    countries: countriesArr.filter((Object) => Object.data.includes(capital)),
   };
 });
