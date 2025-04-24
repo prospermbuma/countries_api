@@ -1,6 +1,8 @@
-// Endpoint: api/countries/find
-// Method: Post
-// post {country: string}
+/* ========================================================
+# Method: Post
+# Endpoint: api/countries/by-label
+# Body: {country: string}
+=========================================================*/
 
 import { countryList } from "@doubco/countries";
 
