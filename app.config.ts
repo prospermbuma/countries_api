@@ -8,13 +8,6 @@ export default defineAppConfig({
       twitter: 'https://x.com/prospermbuma',
       github: 'https://github.com/prospermbuma',
     },
-    // github: {
-    //   dir: '.starters/default/content',
-    //   branch: 'main',
-    //   repo: 'docus',
-    //   owner: 'nuxt-themes',
-    //   edit: true
-    // },
     aside: {
       level: 0,
       collapsed: false,
