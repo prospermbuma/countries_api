@@ -2,7 +2,7 @@
 export default defineAppConfig({
   docus: {
     title: 'Countries API',
-    description: 'API to fetch any country in the world with its name, its id code and more information.',
+    description: 'A simple yet powerful API that lets you fetch detailed information about any country like its name, code, capital city, currency, and more. Perfect for apps needing up-to-date global data in a clean and accessible format.',
     image: '',
     socials: {
       twitter: 'nuxt_js',
