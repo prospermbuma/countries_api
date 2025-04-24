@@ -1,6 +1,6 @@
 /* ========================================================
 # Method: Post
-# Endpoint: api/countries/by-label
+# Endpoint: api/countries/label
 # Body: {country: string}
 =========================================================*/
 
