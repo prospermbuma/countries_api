@@ -4,7 +4,7 @@ API to fetch any country in the world with its name, its id code and more inform
 
 ## How to use it ?
 
-Please refer to our documentation[Countries](https://countries.vercel.app) and check every route.
+Please refer to our documentation [here](https://countries.vercel.app) and check every route.
 
 - Query all countries
 - By random number
