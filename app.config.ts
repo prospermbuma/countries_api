@@ -5,21 +5,16 @@ export default defineAppConfig({
     description: 'A simple yet powerful API that lets you fetch detailed information about any country like its name, code, capital city, currency, and more. Perfect for apps needing up-to-date global data in a clean and accessible format.',
     image: '',
     socials: {
-      twitter: 'nuxt_js',
-      github: 'nuxt-themes/docus',
-      nuxt: {
-        label: 'Nuxt',
-        icon: 'simple-icons:nuxtdotjs',
-        href: 'https://nuxt.com'
-      }
+      twitter: 'https://x.com/prospermbuma',
+      github: 'https://github.com/prospermbuma',
     },
-    github: {
-      dir: '.starters/default/content',
-      branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
-      edit: true
-    },
+    // github: {
+    //   dir: '.starters/default/content',
+    //   branch: 'main',
+    //   repo: 'docus',
+    //   owner: 'nuxt-themes',
+    //   edit: true
+    // },
     aside: {
       level: 0,
       collapsed: false,
